@@ -1,0 +1,63 @@
+body{
+background-color: #3DB2A1;
+}
+
+#selfie{
+	height:17em;
+	border:3px solid black;
+}
+#header{
+	position:static;
+	margin:auto;
+	font-size:5em;
+	width:6.5em;
+}
+
+#search-bar{
+	float: right
+}
+
+#nav-bar{
+	border: 3px solid black;
+    background-color: #FFBEA3;
+    position: static;  
+    width:14em; 
+}
+
+#description-banner{
+	border: 3px solid black;
+    background-color: #B26C4E;
+    position: fixed;
+    width: 15em;
+    height: 90%;
+}
+
+#social-media{
+	border: 3px solid black;
+    background-color: #39FFE2;
+    position: absolute;   
+    bottom: 5em;
+}
+
+#image-box{
+	border: 3px solid black;
+	background-color: white;
+	height: 20em;
+	width: 40%;
+	margin:auto;
+	margin-bottom: 65px
+}
+
+#text-box{
+	margin:auto;
+	width:50%;
+}
+
+#facebook-icon{
+	height:2em;
+}
+
+#github-icon{
+	height:2em;
+}
+
