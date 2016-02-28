@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<!--Immediately underneat this is where I will include links for the navigation, but ideally I want it to look like a horizontal row of buttons maybe with drop down links.  For right now (2/17/16) Since I don't exactly know how to do that, I'll just include the html for links -->
+<!--Immediately underneath this is where I will include links for the navigation, but ideally I want it to look like a horizontal row of buttons maybe with drop down links.  For right now (2/17/16) Since I don't exactly know how to do that, I'll just include the html for links -->
 
-	<a href="#">Home</a>
-	<a href="#">About Me</a>
-	<a href="#">Projects</a>
-	<a href="#">Events</a>
+<!-- 2/27/16 Edit: Moved links into nav-bar div below-->
 
 <!--Fonts I like: 
 Merriweather, 
@@ -20,17 +17,71 @@ Colorwise, I'm including the link to the color scheme I like here: "https://colo
 They're basically earthy brown tones with teal/turquoise/blue shades -->
 
 	<head>
-		<title>Ben's DBC Blog</title>
+		<title>Ben's DBC Blog!</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/default.css">
 	</head>
 
 	<body>
 
-	<img src="#">
-		<p>This area is where I will give a brief description of who I am, where I come from, and the purpose of me using this page</p>
+<div id ="header">
+	My Webpage!
+</div>
 
-	<a href="#">Link 1 to Social Media</a>
-	<a href="#">Link 2 to Social Media</a>
-	<a href="#">Link 4 to Social Media</a>
+<!-- I got the following code from googling how to create a seach bar, I had one in my template and didn't know how to create one.  Link with that info is http://www.wrensoft.com/zoom/support/searchbox.html
+-->
+<form id="search-bar" method="get" action="http://benjaminhyw.github.io//search.php"> 
+<table cellpadding="0px" cellspacing="0px"> 
+<tr> 
+<td style="border-style:solid none solid solid;border-color:#4B7B9F;border-width:1px;">
+<input type="text" name="zoom_query" style="width:100px; border:0px solid; height:17px; padding:0px 3px; position:relative;"> 
+</td>
+<td style="border-style:solid;border-color:#4B7B9F;border-width:1px;"> 
+<input type="submit" value="" style="border-style: none; background: url('imgs/search-button.gif') no-repeat; width: 24px; height: 20px;">
+</td>
+</tr>
+</table>
+</form>
+<!-- Creating this note just to mark where that code ends, and the rest of mine continues
+-->
+
+<div id ="nav-bar">
+	<a href="#">Home</a>
+	<a href="#">About Me</a>
+	<a href="#">Projects</a>
+	<a href="#">Events</a>
+</div>
+
+<div id="description-banner">
+	<p>Who the heck is this guy?!
+	<img id="selfie" src="imgs/lands-end-selfie.jpg">
+	<p>It is I, Ben Flores!  Young twenty somthin' dude, awesome coder in the making!</p>
+	<p>Now you're probably wondering... "Why does this guy have a website?"  Well, reader of mine, check it!  I'm doing big things!  Taking baby steps but y'know, I'm making progress!</p>
+	<p>Take a look around, I'm throwing all the places you can reach me down below.</p>
+
+
+	<div id="social-media">
+		<a href="https://facebook.com/benjaminhyw">
+			<img id="facebook-icon" src="imgs/facebook-icon.png">
+		</a>
+		<a href="https://github.com/benjaminhyw">
+			<img id="github-icon" src="imgs/github-icon.png">
+		</a>
+		<a href="#">Link 3 to Social Media</a>
+	</div>
+</div>
+
+<div id="image-box">This is a place holder for where I will put an image
+	<img src="#">
+</div>
+
+<div id="text-box">
+	<p>SAMPLE TEXT: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+	<p>SAMPLE TEXT: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+	<p>SAMPLE TEXT: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+
 	<!-- etc etc on the links.  I want them to be the social media icons -->
 
 
