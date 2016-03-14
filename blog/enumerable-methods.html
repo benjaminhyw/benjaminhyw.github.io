@@ -28,9 +28,17 @@
 </div>
 
 <div id="text-box">
-	<p>Let's talk about the group_by enumerable method!</p>
-	<p>The ruby doc definition is :  "Groups the collection by result of the block. Returns a hash where the keys are the evaluated result from the block and the values are arrays of elements in the collection that correspond to the key. If no block is given an enumerator is returned."</p>
-	<p>Basically, this method allows us to create groups in the form of hashes, depending on how we define the method!  Our block defines the keys, and our value is the result!
+	<p>Let's talk about the sort_by enumerable method!</p>
+	<p>What I like about the sort_by method is that, as the name suggests, there's a specific way we're about to sort our collection!  What's nice is, we can make that whatever we want!  Rather than automatically having it sort alphabetically or through index number, we can tell it to do whatever we want it to.
+	
+	<p>This is pretty useful when working with something like an array or hash, for example, and we want to sort the value any specific way.  The basic notation looks like this:</p>
+	<p>a.sort_by {|variable1| variable.method}</p>
+	<p>Here we're working with an array and sorting with whatever method we implemented.  That can be .to_s , .length, you name it!</p>
+
+	<p>Similarly when working with a hash, that notation might look like:</p>
+	<p>a.sort_by {|variable1, variable2| variable2.method}</p>
+	<p>In which case variable2 is the value, and we leave the key alone!</p>
+
 </div>
 </body>
 </html>
