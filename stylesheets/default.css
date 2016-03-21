@@ -47,6 +47,10 @@ background-color: #3DB2A1;
 	margin:auto;
 	margin-bottom: 65px
 }
+#owl{
+	height:40em;
+	border:3px solid black;
+}
 
 #text-box{
 	margin:auto;
