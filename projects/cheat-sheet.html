@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/cheatsheet.css">
+    <title>Cheatsheet</title>
+    <div id="header">Cheat Sheet</div>
+  </head>
+<body>
+
+
+<section class='left-square'>
+    <h3>Ruby Basics / Syntax</h3>
+    <p><span>Variables:</span>
+There are 4 main types of variables.  They are local, instance, global, and class variables.  We also have constants, which act very similar to variables.  These refer to the scope of the variables.  Let's write a class and a couple of methods to get a visual representation of each of these.</p>
+
+
+<script src="https://gist.github.com/benjaminhyw/c738afa76ad77ec219fe9298c4c9d72f.js"></script>
+
+
+<p>This code doesn't really do anything, it's written out just to showcase all of the different types of variables.  Here I'll explain.</p>
+
+<p><span>Global variables</span> are written outside of the class and begin with a $.  We typically don't use them however, because they make programs cryptic.  You haven't really used them during Phase-0.</p>
+
+<p><span>Class variables</span> are assigned before the rest of the methods.  They have @@ in front of their name.  You can't use them until they have been initialized.  Once initilized you iterate them just like other variables.</p>
+
+<p><span>Instance variables</span> have an @ symbol before their name, and they're often found within the initialize method.  Basically, once initialized you can use it in any other method within the class.</p>
+
+<p><span>Local variables</span> don't have any symbols in front of them.  Their scope depends on where they are defined.</p>
+
+<p><span>Constant variables</span> begin with a capital letter.  They don't exist until something is assigned to them, and once you do so you can't modifiy that information whatsoever.  If you try, you'll receive an error message.</p>
+    
+<script src="https://gist.github.com/benjaminhyw/010d7578468ea042aece4b3b89d7b887.js"></script>
+</section>
+<section class='right-square'>
+    <h3>Java Basics / Syntax</h3>
+    <script src="https://gist.github.com/benjaminhyw/5b239acd63947a1ae9a56090fac56b30.js"></script>
+</section>
+
+
+</body>
+</html>
+
+
