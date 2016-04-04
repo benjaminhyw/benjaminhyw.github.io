@@ -1,0 +1,27 @@
+.left-square {
+  background-color: #edceaf;
+  text-align: left;
+  float: left;
+  width: 47%;
+  border: 3px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+  border-radius: 1.5em;
+}
+
+.right-square {
+  background-color: #edceaf;
+  float: right;
+  text-align: left;
+  width: 47%;
+  border: 3px solid black;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  border-radius: 1.5em;
+}
+
+span {
+  font: bold 1em sans-serif;
+}
