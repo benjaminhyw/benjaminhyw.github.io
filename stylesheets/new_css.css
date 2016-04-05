@@ -1,0 +1,70 @@
+body{
+  background-color: #3DB2A1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
+}
+
+#basic-intro{
+  font-size:2em;
+  margin-left: 4em;
+}
+div h4 section ul li{
+  position:relative;
+  display:inline-block;
+  list-style:none;
+  text-align:center;
+  display:inline-block;
+  color:#fff;
+
+}
+
+nav{
+  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
+  font-size:1.5em;
+  z-index:-3;
+  width:auto;
+}
+
+nav ul{
+  margin-left:-1%;
+  padding-left:0;
+  text-align:center;
+  position:relative;
+}
+
+nav ul li{
+  list-style:none;
+  border:3px solid #fff;
+  border-radius:15px;
+  width:10%;
+  padding:.40%;
+  margin:.3em;
+  text-align:center;
+  display:inline-block;
+  color:#fff;
+}
+
+nav ul li:hover{
+  background: #618e79;
+  color:#fff;
+  transition:0.65s;
+}
+
+nav ul li:hover a{
+  color:#fff;
+  transition: 0.65s;
+}
+
+nav ul li a{
+  width:100%;
+  text-decoration:none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  color: #fff;
+}
+
+
