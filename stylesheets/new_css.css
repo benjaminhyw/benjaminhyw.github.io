@@ -68,3 +68,38 @@ nav ul li a:hover{
 }
 
 
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.inner-container {
+  display:flex
+  flex-dreiction: column;
+}
+
+.about_p {
+  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
+  padding-left: 50px;
+}
+
+.about_picture {
+  border-radius: 05%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height:18em;
+ 
+}
+
+.about-header {
+  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:10px;
+  font-size:250%;
+}
+
+
