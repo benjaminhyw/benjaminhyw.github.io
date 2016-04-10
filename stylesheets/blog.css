@@ -1,8 +1,68 @@
-#blog-directory{
-	border: 3px solid black;
+
+/*This code belongs to old blog directory*/
+
+/*#blog-directory{
+	border: 6px solid black;
     background-color: #B26C4E;
     position: fixed;
     width: 6em;
     height: 90%;
 }
 
+*/
+/* BLOG INDEX PAGE
+***********************/
+
+#header{
+	text-align: center;
+	margin:auto;
+	font-size:5em;
+	width:6.5em;
+}
+.image-box{
+	border: 3px solid black;
+	background-color: white;
+	height: 20em;
+	width: 40%;
+	margin:auto;
+	margin-bottom: 65px
+}
+#text-box{
+	margin:auto;
+	width:50%;
+}
+
+#blog-main {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#blog-heading {
+  color: white;
+}
+
+.blog-post {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  border: 1px solid grey;
+  background-color: rgba(255, 250, 240, 0.5);
+  border-radius: 5px;
+}
+
+main p {
+  font-size: 1em;
+}
+
+.blog-post a {
+  display: inline-block;
+  color: black;
+  padding-left: 2em;
+  padding-right: 2em;  
+}
+
+.blog-post h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 50%;
+}
