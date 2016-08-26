@@ -11,9 +11,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 4em;
 }
 
+#social-container{
+  margin: auto;
+  width: 100%;
+  background-color:gray;
+  position:absolute;
+  bottom:0;
+  height:70px;
+}
+
 .social{
   display:inline;
   list-style-type: none;
+
 }
 
 div h4 section ul li{
