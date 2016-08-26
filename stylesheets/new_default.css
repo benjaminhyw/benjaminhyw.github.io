@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size:2em;
   margin-left: 4em;
 }
+
+.social{
+  display:inline;
+  list-style-type: none;
+}
+
 div h4 section ul li{
   position:relative;
   display:inline-block;
