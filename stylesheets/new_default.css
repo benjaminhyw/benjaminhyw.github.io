@@ -19,8 +19,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color:gray;
   bottom:0;
   position:absolute;
-  /*height:70px;*/
-  /*float:right;*/
 }
 
 #social-container ul{
@@ -36,17 +34,16 @@ h1, h2, h3, h4, h5, h6 {
   display:inline;
 }
 
-#social-container ul li a{
-  padding: .2em 1em;
-  background-color: white;
-  width:100%;
+#social-container ul li a img{
+  background-color:transparent;
 }
 
-#social-container ul li a:hover
+#social-container ul li a img:hover
 {
-color: #fff;
-background-color: #369;
+  background-color:blue;
+  border-radius:10em;
 }
+
 
 div h4 section ul li{
   position:relative;
@@ -57,14 +54,6 @@ div h4 section ul li{
   color:#fff;
 
 }
-
-
-
-
-
-/*TRY CHANGING DIV TO NAV!!!!!!!*/
-
-
 
 .nav{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
@@ -132,7 +121,7 @@ div h4 section ul li{
   padding-top: 50px;
   padding-bottom: 50px;
   height:18em;
- 
+
 }
 
 .about-header {
