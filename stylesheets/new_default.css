@@ -12,18 +12,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-container{
+  list-style-type: none;
   margin: auto;
   width: 100%;
   background-color:gray;
-  position:absolute;
   bottom:0;
+  position:absolute;
   height:70px;
+  /*float:right;*/
 }
+
 
 .social{
   display:inline;
-  list-style-type: none;
 
+  float:right;
+  /*position:relative;*/
+  /*text-align:center;*/
 }
 
 div h4 section ul li{
