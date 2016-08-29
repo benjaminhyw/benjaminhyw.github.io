@@ -12,19 +12,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-container{
-  margin: auto;
-  width: 100%;
-  background-color:gray;
-  position:absolute;
-  bottom:0;
-  height:70px;
-}
-
-.social{
-  display:inline;
+  margin:0;
+  padding:0;
   list-style-type: none;
+  width:100%;
+  background-color:gray;
+  bottom:0;
+  position:absolute;
+}
+
+#social-container ul{
+  position:relative;
+  text-align:center;
+  margin-left:-1%;
+  padding-left:0;
 
 }
+
+
+#social-container ul li{
+  display:inline;
+}
+
+#social-container ul li a img{
+  background-color:transparent;
+}
+
+#social-container ul li a img:hover
+{
+  background-color:blue;
+  border-radius:50%;
+  border:0px;
+  background-size:5%;
+}
+
 
 div h4 section ul li{
   position:relative;
@@ -36,21 +57,21 @@ div h4 section ul li{
 
 }
 
-nav{
+.nav{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   font-size:1.5em;
   z-index:-3;
   width:auto;
 }
 
-nav ul{
+.nav ul{
   margin-left:-1%;
   padding-left:0;
   text-align:center;
   position:relative;
 }
 
-nav ul li{
+.nav ul li{
   list-style:none;
   border:3px solid #fff;
   border-radius:15px;
@@ -62,24 +83,19 @@ nav ul li{
   color:#fff;
 }
 
-nav ul li:hover{
+.nav ul li:hover{
   background: #618e79;
   color:#fff;
   transition:0.65s;
 }
 
-nav ul li:hover a{
-  color:#fff;
-  transition: 0.65s;
-}
-
-nav ul li a{
+.nav ul li a{
   width:100%;
   text-decoration:none;
   color: #fff;
 }
 
-nav ul li a:hover{
+.nav ul li a:hover{
   color: #fff;
 }
 
@@ -107,7 +123,7 @@ nav ul li a:hover{
   padding-top: 50px;
   padding-bottom: 50px;
   height:18em;
- 
+
 }
 
 .about-header {
