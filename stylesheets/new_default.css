@@ -15,21 +15,34 @@ h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
   list-style-type: none;
-  width: 100%;
+  width:100%;
   background-color:gray;
   bottom:0;
   position:absolute;
-  height:70px;
+  /*height:70px;*/
   /*float:right;*/
+}
+
+#social-container ul{
+  position:relative;
+  text-align:center;
 }
 
 
 #social-container ul li{
   display:inline;
+}
 
-  float:right;
-  /*position:relative;*/
-  /*text-align:center;*/
+#social-container ul li a{
+  padding: .2em 1em;
+  background-color: white;
+  width:100%;
+}
+
+#social-container ul li a:hover
+{
+color: #fff;
+background-color: #369;
 }
 
 div h4 section ul li{
@@ -72,11 +85,6 @@ nav ul li:hover{
   background: #618e79;
   color:#fff;
   transition:0.65s;
-}
-
-nav ul li:hover a{
-  color:#fff;
-  transition: 0.65s;
 }
 
 nav ul li a{
