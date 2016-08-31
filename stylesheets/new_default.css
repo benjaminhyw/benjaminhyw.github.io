@@ -13,9 +13,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-container{
-  margin:0;
-  padding:0;
-  list-style-type: none;
   width:100%;
   background-color:gray;
   bottom:0;
@@ -23,11 +20,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-container ul{
-  position:relative;
   text-align:center;
   margin-left:-1%;
   padding-left:0;
-
 }
 
 
