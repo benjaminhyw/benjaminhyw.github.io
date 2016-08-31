@@ -33,14 +33,12 @@ h1, h2, h3, h4, h5, h6 {
 #social-container ul li a img{
   background-color:transparent;
   border-radius:50%;
-  background-size:5%;
 }
 
 #social-container ul li a img:hover
 {
   background-color:blue;
   border-radius:50%;
-  background-size:5%;
   transition:1.25s;
 }
 
