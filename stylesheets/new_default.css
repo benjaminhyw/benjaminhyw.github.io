@@ -35,8 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius:50%;
 }
 
-#social-container ul li a img:hover
-{
+#social-container ul li a img:hover{
   background-color:blue;
   border-radius:50%;
   transition:1.25s;
@@ -96,7 +95,7 @@ div h4 section ul li{
 }
 
 
-.about-container {
+.about-container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -104,17 +103,17 @@ div h4 section ul li{
   align-items: center;
 }
 
-.inner-container {
+.inner-container{
   display:flex
   flex-dreiction: column;
 }
 
-.about_p {
+.about_p{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   padding-left: 50px;
 }
 
-.about_picture {
+.about_picture{
   border-radius: 05%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -122,12 +121,10 @@ div h4 section ul li{
 
 }
 
-.about-header {
+.about-header{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   text-align: center;
   padding-top: 30px;
   padding-bottom:10px;
   font-size:250%;
 }
-
-
