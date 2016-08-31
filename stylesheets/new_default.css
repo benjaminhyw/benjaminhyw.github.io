@@ -58,8 +58,6 @@ div h4 section ul li{
 header nav{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   font-size:1.5em;
-  z-index:-3;
-  width:auto;
 }
 
 header nav ul{
