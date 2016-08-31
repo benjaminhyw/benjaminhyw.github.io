@@ -9,13 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #basic-intro{
   font-size:2em;
-  margin-left: 4em;
+  margin-left: 5em;
 }
 
 #social-container{
-  margin:0;
-  padding:0;
-  list-style-type: none;
   width:100%;
   background-color:gray;
   bottom:0;
@@ -23,11 +20,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social-container ul{
-  position:relative;
   text-align:center;
   margin-left:-1%;
   padding-left:0;
-
 }
 
 
@@ -38,17 +33,15 @@ h1, h2, h3, h4, h5, h6 {
 #social-container ul li a img{
   background-color:transparent;
   border-radius:50%;
-  background-size:5%;
 }
 
-#social-container ul li a img:hover
-{
+#social-container ul li a img:hover{
   background-color:blue;
   border-radius:50%;
-  background-size:5%;
   transition:1.25s;
 }
 
+/*IS THIS CSS NEEDED?*/
 
 div h4 section ul li{
   position:relative;
@@ -56,54 +49,45 @@ div h4 section ul li{
   list-style:none;
   text-align:center;
   display:inline-block;
-  color:#fff;
-
+  /*color:#fff;*/
+  background-color: red;
 }
 
-.nav{
+/* COME BACK TO THAT WHEN YOU FIND OUT*/
+
+header nav{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   font-size:1.5em;
-  z-index:-3;
-  width:auto;
 }
 
-.nav ul{
+header nav ul{
   margin-left:-1%;
   padding-left:0;
   text-align:center;
   position:relative;
 }
 
-.nav ul li{
-  list-style:none;
+header nav ul li{
   border:3px solid #fff;
   border-radius:15px;
   width:10%;
   padding:.40%;
   margin:.3em;
-  text-align:center;
   display:inline-block;
   color:#fff;
 }
 
-.nav ul li:hover{
+header nav ul li:hover{
   background: #618e79;
-  color:#fff;
-  transition:0.65s;
+  transition:.7s;
 }
 
-.nav ul li a{
-  width:100%;
+header nav ul li a{
   text-decoration:none;
   color: #fff;
 }
 
-.nav ul li a:hover{
-  color: #fff;
-}
-
-
-.about-container {
+.about-container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,17 +95,17 @@ div h4 section ul li{
   align-items: center;
 }
 
-.inner-container {
+.inner-container{
   display:flex
   flex-dreiction: column;
 }
 
-.about_p {
+.about_p{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   padding-left: 50px;
 }
 
-.about_picture {
+.about_picture{
   border-radius: 05%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -129,12 +113,10 @@ div h4 section ul li{
 
 }
 
-.about-header {
+.about-header{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   text-align: center;
   padding-top: 30px;
   padding-bottom:10px;
   font-size:250%;
 }
-
-
