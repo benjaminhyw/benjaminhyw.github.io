@@ -83,15 +83,9 @@ header nav ul li:hover{
 }
 
 header nav ul li a{
-  width:100%;
   text-decoration:none;
   color: #fff;
 }
-
-header nav ul li a:hover{
-  color: #fff;
-}
-
 
 .about-container{
   display: flex;
