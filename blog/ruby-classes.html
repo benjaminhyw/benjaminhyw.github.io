@@ -1,55 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link type="text/css" rel="stylesheet" href="../stylesheets/new_default.css">
-  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
-  <title>My Blog Post</title>
-  <meta charset="UTF-8">
-</head>
-<body>
-
-    <nav class ="nav">
+  <head>
+    <link type="text/css" rel="stylesheet" href="../stylesheets/new_default.css">
+    <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css">
+    <title>My Blog Post</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="../about.html">About</a></li>
           <li><a href="blog-template.html">Blog</a></li>
           <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
           <li><a href="#">Resume</a></li>
         </ul>
-    </nav>
-    <div id="header">Blog</div>
+      </nav>
+    </header>
+    <div id="header">
+      Blog
+    </div>
+    <div id="text-box">
+    	<h1>Ruby Classes</h1>
+      <h4>Sunday, March 20th 2016</h4>
 
+    	<p>It's a bird!  It's a plane!  No, it's a Class!</p>
+    	<p>Okay, lame intro aside... Yes!  Today we are talking about Ruby Classes!</p>
+    	<p>Classes are these cool things in ruby that allow you to store a lot of different information in instance variables, which then allow you to easily access that data in all of your different methods!</p>
+    	
+    	<p>I know I know, I started with a Superman reference so you want a nerdy explanation... except, I don't know really know anything about Superman!  Or DC, for that matter!  I'm a Marvel fanboy.. *sigh* so, uh, yea, here's a very sloppy transition .. Oh hey, the X-Men!  Alright!</p>
 
-  <!-- This following code is for when you add an image <img class="image-box" src="#"> -->
+    	<p>As you may or may not know, the X-Men are a group of individuals with very cool super-abilities!  So, let's make a class for the members and their abilities!  No, this is not the mutant registration act...
 
-
-<div id="text-box">
-
-	<h1>Ruby Classes</h1>
-    <h2></h2>
-    <h4>Sunday, March 20th 2016</h4>
-
-	<p>It's a bird!  It's a plane!  No, it's a Class!</p>
-	<p>Okay, lame intro aside... Yes!  Today we are talking about Ruby Classes!</p>
-	<p>Classes are these cool things in ruby that allow you to store a lot of different information in instance variables, which then allow you to easily access that data in all of your different methods!</p>
-	
-	<p>I know I know, I started with a Superman reference so you want a nerdy explanation... except, I don't know really know anything about Superman!  Or DC, for that matter!  I'm a Marvel fanboy.. *sigh* so, uh, yea, here's a very sloppy transition .. Oh hey, the X-Men!  Alright!</p>
-
-	<p>As you may or may not know, the X-Men are a group of individuals with very cool super-abilities!  So, let's make a class for the members and their abilities!  No, this is not the mutant registration act...
-
-<script src="https://gist.github.com/benjaminhyw/5a1aebf4223a0d41f392.js"></script>
-	
-	<p>When we create a class, we write all of the methods we want to be moving info inside of the class (begins line 2 ends line 20)</p>
-	<p>We start with the initialize method, where we create our instance variables.</p>
-	<p>Then we create all our other methods.  In this case, I created 3 different methods.
-	Each one essentially either greets a new member, greets a returning member, or says goodbye to a leaving member.  Whenever a member leaves or joins, an automated message will be printed on the screen, including the members name and their ability.  After you've done all of your class and methods, you can call the method on the class object!</p>
-
-</div>
-</body>
-
-
-
+      <script src="https://gist.github.com/benjaminhyw/5a1aebf4223a0d41f392.js"></script>
+    	
+    	<p>When we create a class, we write all of the methods we want to be moving info inside of the class (begins line 2 ends line 20)</p>
+    	<p>We start with the initialize method, where we create our instance variables.</p>
+    	<p>Then we create all our other methods.  In this case, I created 3 different methods.
+    	Each one essentially either greets a new member, greets a returning member, or says goodbye to a leaving member.  Whenever a member leaves or joins, an automated message will be printed on the screen, including the members name and their ability.  After you've done all of your class and methods, you can call the method on the class object!</p>
+    </div>
+  </body>
 </html>
-
-
