@@ -41,20 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   transition:1.25s;
 }
 
-/*IS THIS CSS NEEDED?*/
-
-div h4 section ul li{
-  position:relative;
-  display:inline-block;
-  list-style:none;
-  text-align:center;
-  display:inline-block;
-  /*color:#fff;*/
-  background-color: red;
-}
-
-/* COME BACK TO THAT WHEN YOU FIND OUT*/
-
 header nav{
   font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   font-size:1.5em;
