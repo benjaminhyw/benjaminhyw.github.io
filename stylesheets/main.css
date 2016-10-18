@@ -1,6 +1,11 @@
+html{
+  height: 100%;
+}
+
 body{
-  background-color: #3DB2A1;
+  background: #3DB2A1;
   margin:0;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #social-container{
   width:100%;
-  background-color:gray;
+  background-color: #808080;
   bottom:0;
   position:absolute;
 }
