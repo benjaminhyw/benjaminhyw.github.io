@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #social-container ul li{
   display:inline;
+  padding: 0 .75%;
 }
 
 #social-container ul li a img{
