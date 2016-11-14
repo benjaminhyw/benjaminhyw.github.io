@@ -9,7 +9,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
+  font-family: 'Viga','Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
 }
 
 #basic-intro{
@@ -20,8 +20,9 @@ h1, h2, h3, h4, h5, h6 {
 #social-container{
   width:100%;
   background-color: #808080;
-  bottom:0;
-  position:absolute;
+  bottom: 0;
+  position: absolute;
+  border-top: .35em solid black;
 }
 
 #social-container ul{
@@ -33,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #social-container ul li{
   display:inline;
+  padding: 0 .75%;
 }
 
 #social-container ul li a img{
@@ -104,7 +106,6 @@ main div p{
 }
 
 .about-header{
-  font-family: 'Merriweather', 'Yanone Kaffeesatz', 'Kreon', 'Oranienbaum', sans-serif;
   text-align: center;
   padding-top: 30px;
   padding-bottom:10px;
